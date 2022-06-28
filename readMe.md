@@ -52,12 +52,12 @@ java -DKAFKA_BOOTSTRAP_SERVERS=127.0.0.1:9092 -jar zipkin-server-2.21.7-exec.jar
 
 ## e-commerce-service
 - This microservice is the parent module of e-commerce services
-  - # e-commerce-service-config
+  - ## e-commerce-service-config
     - setup swagger and web interceptors for user authentication 
-  - # e-commerce-service-sdk
+  - ## e-commerce-service-sdk
     - define the general data objects passing via different microservices
       - for account data: AddressInfo, BalanceInfo, UserAddress
       - for common data accessing: tableId, read the primary key of a table
-  - # e-commerce-service-account-service:
+  - ## e-commerce-service-account-service:
     - provides the basic account service and balance service
     - 
