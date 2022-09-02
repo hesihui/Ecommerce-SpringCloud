@@ -1,3 +1,16 @@
+## What I have done:
+- Designed and implemented the microservice architecture for the e-commerce backend system
+- Integrated microservices with Alibaba Nacos to enable microservice registry and discovery
+- Configured and Utilized SpringCloud Gateway to manage different APIs provided by the microservies while implementing SpringCloud Gateway filters to handle different HTTP requests from the client and internal calls
+    - Some nacos alternative procuct: netflix eureka, coreDNS
+    - Why choose nacos: nacos focuses more on constructing a service plantform and forming a service sharing community for open source projects, not only for the usage of service discovery
+- Developed the user registration, authentication, and authority management microservice using JWT and RSA256 with Spring Security Framework
+- Designed and implemented the data model and data access objects
+using Hibernate
+- Utilized Redis to enable instant data accessing (paginated product info)
+- Implement distributed tracing for microservices with Spring Cloud Sleuth and Zipkin
+- Utilized Junit to perform unit tests on REST APIs and main functionalities of the microservices
+
 ## Nacos Set up and Configuration
 - For setting up nacos: see Nacos official guideline https://github.com/alibaba/nacos
 - nacos version: 2.0.0
